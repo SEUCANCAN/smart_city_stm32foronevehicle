@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY
+-I.\RTE\_USART
+-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-ID:\Keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F10X_MD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d "..\..\高级例程-基于MINI板的TIM1的PWM输出\FWlib\src\stm32f10x_tim.c"
